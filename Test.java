@@ -17,5 +17,12 @@ Class Test{
             return sum(a-1,b-1);
         else
             return a+b;
+
+    static boolean isGreater(int a,int b){
+        if (a>b)
+            return true;
+        else
+            return false;    
+
     }
 }
