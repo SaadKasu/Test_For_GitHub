@@ -11,4 +11,18 @@ Class Test{
                 return false;
         return true;        
     }
+
+    static int sum(int a,int b){
+        if (a>0 && b>0)
+            return sum(a-1,b-1);
+        else
+            return a+b;
+
+    static boolean isGreater(int a,int b){
+        if (a>b)
+            return true;
+        else
+            return false;    
+
+    }
 }
